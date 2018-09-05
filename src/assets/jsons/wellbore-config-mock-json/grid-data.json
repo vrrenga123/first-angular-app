@@ -1,0 +1,72 @@
+{
+  "entityInstanceId": "C1864",
+  "wellCompletionType": "Open",
+  "items": [
+    {
+      "group": "Completion Information",
+      "groupDesc": "Estimated perforation calculation will be recaculated when friction and hydrostatic information has been changed",
+      "itemName": "Hole Diameter Size",
+      "zones": [
+        {"zoneId": 1, "zoneValue": null},
+        {"zoneId": 2, "zoneValue": null},
+        {"zoneId": 3, "zoneValue": "13.5"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    },
+    {
+      "group": "Completion Information",
+      "groupDesc": "Estimated perforation calculation will be recaculated when friction and hydrostatic information has been changed",
+      "itemName": "Net Perforated Thickness",
+      "zones": [
+        {"zoneId": 1, "zoneValue": "200"},
+        {"zoneId": 2, "zoneValue": "201"},
+        {"zoneId": 3, "zoneValue": "202"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    },
+    {
+      "group": "Completion Information",
+      "groupDesc": "Estimated perforation calculation will be recaculated when friction and hydrostatic information has been changed",
+      "itemName": "Perforation Diameter",
+      "zones": [
+        {"zoneId": 1, "zoneValue": "0.39"},
+        {"zoneId": 2, "zoneValue": "0.39"},
+        {"zoneId": 3, "zoneValue": "0.39"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    },
+    {
+      "group": "Friction",
+      "groupDesc": "Friction = F-V1 * (Rate * Rate) + F-V2 * Rate - F-V3",
+      "itemName": "F-V1",
+      "zones": [
+        {"zoneId": 1, "zoneValue": "9.39"},
+        {"zoneId": 2, "zoneValue": "9.39"},
+        {"zoneId": 3, "zoneValue": "9.39"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    },
+    {
+      "group": "Friction",
+      "groupDesc": "Friction = F-V1 * (Rate * Rate) + F-V2 * Rate - F-V3",
+      "itemName": "F-V2",
+      "zones": [
+        {"zoneId": 1, "zoneValue": "11.39"},
+        {"zoneId": 2, "zoneValue": "11.39"},
+        {"zoneId": 3, "zoneValue": "11.39"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    },
+    {
+      "group": "Friction",
+      "groupDesc": "Friction = F-V1 * (Rate * Rate) + F-V2 * Rate - F-V3",
+      "itemName": "F-V3",
+      "zones": [
+        {"zoneId": 1, "zoneValue": "96.2"},
+        {"zoneId": 2, "zoneValue": "96.2"},
+        {"zoneId": 3, "zoneValue": "96.2"},
+        {"zoneId": 4, "zoneValue": null}
+      ]
+    }
+  ]
+}

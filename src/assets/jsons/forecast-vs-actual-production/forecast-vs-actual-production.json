@@ -1,0 +1,3025 @@
+{
+	"chart": "{\"axis\":{\"yAxis\":[{\"id\":0,\"label\":{\"text\":\"Actual vs Forecast\"}}]},\"trace\":{\"yAxis\":[{\"id\":\"PDBGas\",\"traceName\":\"Actual\",\"scaleId\":0,\"marker\":{\"color\":\"#000080\",\"type\":\"circle\"},\"color\":\"#000080\"},{\"id\":\"PDBOil\",\"traceName\":\"Forecast\",\"scaleId\":0,\"marker\":{\"color\":\"#6495ED\",\"type\":\"circle\"},\"color\":\"#6495ED\"}]}}",
+	"patch": null,
+	"series": [
+		{
+			"displayName": "PDBOil",
+			"defaultTrace": null,
+			"chartValues": [
+				{
+					"xValue": null,
+					"yValue": null,
+					"time": 0,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527638400000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527705875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527709475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527713075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527716675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527720275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6966.57",
+					"time": 1527723875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527724800000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527727475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527731075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527734675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527738275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527741875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527745475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527749075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527752675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527756275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527759875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527763475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527767075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527770675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527774275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527777875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527781475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527785075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527788675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527792275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527795875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527799475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527803075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527806675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6882.14",
+					"time": 1527810275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527811200000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527813875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527817475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527821075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527824675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527828275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527831875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527835475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527839075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527842675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527846275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527849875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527853475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527857075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527860675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527864275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527867875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527871475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527875075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527878675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527882275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527885875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527889475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527893075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6856.01",
+					"time": 1527896675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527897600000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527900275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527903875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527907475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527911075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527914675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527918275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527921875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527925475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527929075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527932675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527936275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527939875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527943475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527947075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527950675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527954275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527957875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527961475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527965075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527968675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527972275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527975875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527979475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6785.97",
+					"time": 1527983075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1527984000000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1527986675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1527990275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1527993875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1527997475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528001075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528004675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528008275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528011875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528015475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528019075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528022675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528026275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528029875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528033475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528037075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528040675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528044275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528047875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528051475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528055075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528058675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528062275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528065875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5686.28",
+					"time": 1528069475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528070400000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528073075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528076675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528080275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528083875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528087475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528091075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528094675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528098275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528101875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528105475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528109075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528112675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528116275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528119875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528123475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528127075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528130675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528134275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528137875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528141475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528145075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528148675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528152275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6578.4",
+					"time": 1528155875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528156800000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528159475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528163075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528166675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528170275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528173875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528177475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528181075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528184675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528188275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528191875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528195475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528199075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528202675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528206275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528209875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528213475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528217075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528220675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528224275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528227875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528231475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528235075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528238675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6563.57",
+					"time": 1528242275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528243200000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528245875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528245875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528249475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528249475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528253075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528253075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528256675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528256675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528260275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528260275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528263875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528263875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528267475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528267475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528271075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528271075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528274675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528274675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528278275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528278275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528281875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528281875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528285475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528285475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528289075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528289075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528292675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528292675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528296275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528296275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528299875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528299875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528303475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528303475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528307075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528307075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528310675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "0.0",
+					"time": 1528310675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				}
+			],
+			"source": "PDB",
+			"traceId": "PDBOil"
+		},
+		{
+			"displayName": "PDBGas",
+			"defaultTrace": null,
+			"chartValues": [
+				{
+					"xValue": null,
+					"yValue": null,
+					"time": 0,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527638400000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527705875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527709475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527713075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527716675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527720275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7128.43",
+					"time": 1527723875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527724800000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527727475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527731075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527734675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527738275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527741875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527745475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527749075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527752675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527756275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527759875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527763475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527767075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527770675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527774275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527777875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527781475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527785075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527788675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527792275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527795875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527799475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527803075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527806675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6946.85",
+					"time": 1527810275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527811200000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527813875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527817475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527821075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527824675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527828275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527831875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527835475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527839075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527842675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527846275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527849875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527853475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527857075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527860675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527864275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527867875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527871475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527875075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527878675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527882275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527885875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527889475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527893075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "7001.91",
+					"time": 1527896675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527897600000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527900275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527903875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527907475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527911075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527914675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527918275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527921875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527925475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527929075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527932675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527936275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527939875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527943475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527947075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527950675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527954275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527957875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527961475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527965075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527968675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527972275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527975875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527979475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6926.74",
+					"time": 1527983075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1527984000000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1527986675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1527990275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1527993875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1527997475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528001075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528004675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528008275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528011875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528015475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528019075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528022675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528026275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528029875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528033475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528037075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528040675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528044275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528047875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528051475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528055075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528058675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528062275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528065875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "5844.32",
+					"time": 1528069475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528070400000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528073075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528076675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528080275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528083875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528087475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528091075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528094675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528098275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528101875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528105475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528109075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528112675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528116275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528119875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528123475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528127075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528130675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528134275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528137875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528141475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528145075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528148675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528152275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6710.2",
+					"time": 1528155875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528156800000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528159475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528163075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528166675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528170275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528173875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528177475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528181075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528184675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528188275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528191875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528195475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528199075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528202675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528206275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528209875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528213475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528217075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528220675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528224275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528227875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528231475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528235075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528238675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528242275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528243200000,
+					"quality": null,
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528245875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528249475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528253075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528256675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528260275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528263875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528267475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528271075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528274675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528278275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528281875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528285475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528289075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528292675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528296275000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528299875000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528303475000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528307075000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				},
+				{
+					"xValue": null,
+					"yValue": "6693.56",
+					"time": 1528310675000,
+					"quality": "Copy",
+					"xType": "Date",
+					"yType": null
+				}
+			],
+			"source": "PDB",
+			"traceId": "PDBGas"
+		}
+	],
+	"samplingMethod": "HOURLY",
+	"interval": 1,
+	"trendLines": []
+}

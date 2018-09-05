@@ -1,0 +1,32 @@
+[
+    {
+        "isActive": false,
+        "flowline": "3A",
+        "flowlineName": "3A",
+        "maxLigRate": 4554,
+        "riserPressure": 54432,
+        "riserBasePressure": 4542,
+        "manifoldPressure726": 43454,
+        "manifoldPressure683": 245524,
+        "calcOilRate": 3545,
+        "calcGasRate": 3545,
+        "calcWaterRate": 154,
+        "calcGOR": 471231,
+        "calcWCT": 545
+    },
+    {
+        "isActive": true,
+        "flowline": "3B",
+        "flowlineName": "3B",
+        "maxLigRate": 543,
+        "riserPressure": 231534,
+        "riserBasePressure": 4545,
+        "manifoldPressure726": 68754,
+        "manifoldPressure683": 562121,
+        "calcOilRate": 454534,
+        "calcGasRate": 543543,
+        "calcWaterRate": 35441,
+        "calcGOR": 3543545,
+        "calcWCT": 745341
+    }
+]

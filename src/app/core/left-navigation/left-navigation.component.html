@@ -1,0 +1,40 @@
+<div class="sidebar float-left {{this.sidebarWidthClassName}}">
+    <div class="clsSideMenuListItems">
+
+        <ul>
+            <li class="clsHomeMenu">
+                <a class="clsHomeIcon" (click)="homeClicked()">
+                    <em>
+                        <i class="mdi mdi-home mdi-20px"></i>
+                    </em>
+                    <span>Home</span>
+                </a>
+                <a class="clsPinIcon {{isSidebarOpened ? this.context.pinSwitched ? 'clsPinIconOff':'clsPinIconIn':''}}" (click)="pinClicked()">
+                    <i class="mdi {{this.context.pinSwitched ? 'mdi-pin-off':'mdi-pin'}}"></i>
+                </a>
+            </li>
+           
+            
+            <li *ngIf="showWorkflows()" class="clsWokflowLists nav-scroll">
+                <ul>                   
+                    <li class="clsWorkflows" *ngFor="let workflow of context.allWorkflows">
+                        <a [class.active-item]="this.isActive(workflow)" (click)="workflowClick(workflow)" [title]="workflow.description">
+                            <em>
+                                <i [class]="imageUrls[workflow.name]"> </i>
+                            </em>
+                            <span>{{workflow.description}}</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="clsSupportSection">
+                <a class="clsSupportIcon" href="https://anadarko.service-now.com" target="_blank">
+                    <em>
+                        <i class="mdi mdi-help mdi-20px"></i>
+                    </em>
+                    <span>Support</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

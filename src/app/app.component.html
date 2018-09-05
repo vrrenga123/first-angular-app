@@ -1,0 +1,60 @@
+<div id="wrapper" class="clsWrapper" [ngClass]="this.isTablet()?'clsMobileWrapper':''" #pageContent>
+Hello World
+    <header #pageHeader>
+        <nav class="navbar fixed-top">
+
+            <div class="clsNavRightSection" id="navbarText">
+
+                <h1 class="navbar-brand navbar-nav mr-auto ipso-logo slideInLeft">
+                    <a *ngIf="isShowSidebar && !this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
+                        <i class="mdi mdi-menu mdi-24px"></i>
+                    </a>
+                    <a *ngIf="isShowSidebar && this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
+                        <!-- <i class="mdi mdi-menu mdi-24px"></i> -->
+                        <div class="navbar-wrap">
+                            <div class="navbar-button" [ngClass]="this.isSidebarToggled?'open':''">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="clslogo-container" (click)="homeClicked()">
+                        <i class="icon apc-icon-anadark-oil-derrick-logo"></i>
+                        <span class="clslogo-text">IPSO</span>
+                    </a>
+                </h1>
+
+            </div>
+        </nav>
+    </header>
+
+    <div id="page-content-wrapper" class="clearfix" (click)="onBodyClick()" [class.clsHomepageWrapper]="!isShowSidebar"
+    (window:resize)="onResize($event)">
+
+
+    <div *ngIf="!loading">
+        <router-links *ngIf="context.isShowSidebar" [isSideBarClicked]="this.isSidebarToggled"></router-links>  
+        <div class="container-fluid" [class.isPinSwitchOff]="(this.isSidebarToggled ? false : this.pinSwitched)" [class.sidebarBeforeToggled]="this.isSidebarToggled"
+            [class.sidebarAfterToggled]="!this.isSidebarToggled" [class.clsHomepageContainer]="!isShowSidebar">
+            <div class="row" [ngClass]="isShowSidebar ? ' mt-2' : 'mt-0'">
+                <div class="col-sm-12 col-md-12" id="main">
+                    <!-- <div class="row">
+                  <basic-auth></basic-auth>
+              </div> -->
+                    <!-- <breadcrumb *ngIf="this.showBreadcrumb"></breadcrumb> -->
+                    <router-outlet></router-outlet> 
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    </div>
+   
+  </div>

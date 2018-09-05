@@ -1,0 +1,40 @@
+[
+    {
+        "headerName": "Active",
+        "field": "active",
+        "type":["checkbox","checkboxSelectAll","pinnedLeft"],
+        "suppressFilter": true,
+        "minWidth":70
+    },
+    {
+        "headerName": "Separator",
+        "field": "entityInstanceId",
+        "type": "pinnedLeft"
+    },
+    {
+        "headerName": "Pressure (psia)",
+        "field": "pressure",
+        "type":[ "editableColumn","pressure"]
+    },
+    {
+        "headerName": "Max Liq Rate (STB/d)",
+        "field": "maxQliq",
+        "type":[ "editableColumn","rate"]
+    },
+    {
+        "headerName": "Calc Oil Rate (STB/d)",
+        "field": "oilRate",
+        "type":"rate"
+    },
+    {
+        "headerName": "Calc Gas Rate (MMSCFD)",
+        "field": "gasRate",
+        "type":"rate"
+    },
+    {
+        "headerName": "Calc Water Rate (STB/d)",
+        "field": "waterRate",
+        "type":"rate"
+    }
+   ]
+                            

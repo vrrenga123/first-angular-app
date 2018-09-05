@@ -1,0 +1,96 @@
+[
+    {
+        "headerName": "Active",
+        "field": "active",
+        "type": [
+            "checkbox",
+            "checkboxSelectAll",
+            "pinnedLeft"
+        ],
+        "suppressFilter": true,
+        "minWidth": 70
+    },
+    {
+        "headerName": "Well",
+        "field": "entityInstanceId",
+        "type": "pinnedLeft"
+    },
+    {
+        "headerName": "Routing",
+        "field": "routingName",
+        "type": "editableColumn",
+        "cellEditor": "select",
+        "cellEditorParams": {
+            "values": []
+        }
+    },
+    {
+        "headerName": "Max Liq Rate (STB/d)",
+        "field": "maxLQliq",
+        "type": [
+            "editableColumn",
+            "rate"
+        ]
+    },
+    {
+        "headerName": "Max Drawdown (psia)",
+        "field": "maxDrawdown",
+        "type": [
+            "editableColumn",
+            "pressure"
+        ]
+    },
+    {
+        "headerName": "Min BHP (psia)",
+        "field": "bhp",
+        "type": [
+            "editableColumn",
+            "pressure"
+        ]
+    },
+    {
+        "headerName": "Calc Oil Rate(STB/d)",
+        "field": "oilRateMPFMmeter",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc Gas Rate(MMSCFD)",
+        "field": "gasRateMPFMmeter",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc Water Rate(STB/d)",
+        "field": "waterRateMPFMmeter",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc GOR(SCF/STB)",
+        "field": "gor",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc WCT(%)",
+        "field": "wct",
+        "type": "fraction"
+    },
+    {
+        "headerName": "Calc BHP(psia)",
+        "field": "pressure",
+        "type": "pressure"
+    },
+    {
+        "headerName": "Calc THP(psia)",
+        "field": "thp",
+        "type": "pressure"
+    },
+    {
+        "headerName": "Calc DCP(psia)",
+        "field": "dcp",
+        "type": "pressure"
+    },
+    {
+        "headerName": "Calc Drawdown(psia)",
+        "field": "drawdown",
+        "type": "pressure"
+    }
+]

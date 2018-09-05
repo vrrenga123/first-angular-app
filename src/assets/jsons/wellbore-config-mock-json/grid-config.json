@@ -1,0 +1,25 @@
+[
+    {
+        "headerName": "Title",
+        "field": "group",
+        "rowGroup": true,
+        "hide": true
+    },
+    {
+        "headerName": "Description",
+        "editable": false,
+        "field": "itemName",
+        "width": 500,
+        "pinned": "left",
+        "cellStyle": {
+            "margin-left": "30px"
+        }
+    },
+    {
+        "headerName": "Zone 1",
+        "type": "editableColumn",
+        "field": "zones[0].zoneValue",
+        "width": 150,
+        "hide": true
+    }
+]

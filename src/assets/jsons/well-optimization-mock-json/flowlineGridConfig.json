@@ -1,0 +1,82 @@
+[
+    {
+        "headerName": "Active",
+        "field": "active",
+        "type": [
+            "checkbox",
+            "checkboxSelectAll",
+            "pinnedLeft"
+        ],
+        "suppressFilter": true,
+        "minWidth": 70
+    },
+    {
+        "headerName": "Flowline",
+        "field": "entityInstanceId",
+        "type": "pinnedLeft"
+    },
+    {
+        "headerName": "Routing",
+        "field": "routingName",
+        "type": [
+            "editableColumn"
+        ],
+        "cellEditor": "select",
+        "cellEditorParams": {
+            "values": []
+        }
+    },
+    {
+        "headerName": "Max Liq Rate (STB/d)",
+        "field": "maxQliq",
+        "type": [
+            "editableColumn",
+            "rate"
+        ]
+    },
+    {
+        "headerName": "RiserPressure",
+        "field": "riserPressure",
+        "type": "pressure"
+    },
+    {
+        "headerName": "RiserBasePressure",
+        "field": "riserBasePressure",
+        "type": "pressure"
+    },
+    {
+        "headerName": "ManifoldPressure726",
+        "field": "manifoldPressure726",
+        "type": "pressure"
+    },
+    {
+        "headerName": "ManifoldPressure683",
+        "field": "manifoldPressure683",
+        "type": "pressure"
+    },
+    {
+        "headerName": "Calc Oil Rate (STB/d)",
+        "field": "oilRate",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc Gas Rate (MMSCFD)",
+        "field": "gasRate",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc Water Rate (STB/d)",
+        "field": "waterRate",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc GOR (SCF/STB)",
+        "field": "gor",
+        "type": "rate"
+    },
+    {
+        "headerName": "Calc WCT (%)",
+        "field": "wct",
+        "type": "fraction"
+    }
+]

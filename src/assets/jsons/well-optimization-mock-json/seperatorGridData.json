@@ -1,0 +1,11 @@
+[
+    {
+        "isActive": true,
+        "separator": "",
+        "pressure": "8754",
+        "maxLigRate": null,
+        "calcOilRate": null,
+        "calcGasRate": null,
+        "calcWaterRate": null
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "headerName": "Source",
+        "field": "eventSource",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "Status",
+        "field": "eventStatus",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "Event",
+        "field": "startDate",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    },
+    {
+        "headerName": "Zone",
+        "field": "zone",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "UserID",
+        "field": "userId",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "Comments",
+        "field": "eventComments",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "CumOil (MBO)",
+        "field": "cumOil",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "Liquid Rate (BOPD)",
+        "field": "liquidRate",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "BHP (psia)",
+        "field": "bhp",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": true
+    },
+    {
+        "headerName": "Shut-in (hrs)",
+        "field": "siDuration",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    },
+    {
+        "headerName": "PI (10mins) (bfpd/psi)",
+        "field": "pi10",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    },
+    {
+        "headerName": "PI (1hr) (bfpd/psi)",
+        "field": "p60",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    },
+    {
+        "headerName": "PI_Perf (10mins) (bfpd/psi)",
+        "field": "pi10Perf",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    },
+    {
+        "headerName": "PI_Perf (1hr) (bfpd/psi)",
+        "field": "pi60Perf",
+        "maxWidth": 150,
+        "minWidth": 150,
+        "hide": false
+    }
+]
