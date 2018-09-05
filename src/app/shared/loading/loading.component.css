@@ -1,0 +1,45 @@
+/* Absolute Center Component Loader Spinner using absolute style */
+.clsComponentLoader{
+    position: absolute;
+    z-index: 997;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    right: 0;
+}
+.Componentloading {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 0.2rem solid #0275d8;
+    border-top-color: white;
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+.Spinnerloading {
+
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+
+.SpinnerImg{
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.clsComponentLoader img {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+/* Absolute Center Component Loader Spinner using absolute style Ends */

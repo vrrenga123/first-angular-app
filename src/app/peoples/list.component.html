@@ -1,0 +1,13 @@
+<h1>Peoples list</h1>
+<a (click)="previousPage()" *ngIf="page > 0">previous</a>&nbsp;
+<a (click)="nextPage()" *ngIf="page < 9">next</a>
+<ul>
+	<li *ngFor="let get of peoples">
+		<a [routerLink]="['/peoples', get.UserName]">
+			{{get.UserName}} - {{get.FirstName}} - {{get.LastName}}
+		</a>
+	</li>
+</ul>
+
+
+<zippy (open)="onOpen($event)" (close)="onClose($event)"></zippy>

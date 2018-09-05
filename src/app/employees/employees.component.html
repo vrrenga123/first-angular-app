@@ -1,0 +1,105 @@
+<div class="myclass">
+        <div>
+                <button mz-button (click)="featureDiscovery.open()">Open tap target</button>
+                <button mz-button (click)="featureDiscovery.close()">Close tap target</button>
+                <button mz-button (click)="setSelected()">Close tap target</button>
+              </div>
+
+        <div class="fixed-action-btn">
+                <button id="star-button" mz-button [float]="true" [large]="true">
+                  <i mz-icon-mdi [icon]="'star'"></i>
+                </button>
+              </div>
+              
+              <!-- mz-feature-discovery component -->
+              <mz-feature-discovery [targetId]="'star-button'" #featureDiscovery>
+                <h5>I am here2</h5>
+                <p>Provide value and encourage return visits by introducing users to new features and functionality at contextually relevant moments.</p>
+              </mz-feature-discovery>
+
+        <table class="table table-hover">
+            <tr>
+                <td style="width:340px"><img class="avatar" src='./assets/images/images.jpg' /></td>
+                <td><h1>{{ employeeDetails }}</h1></td>
+                <td>
+                  <mz-select-container style="width:200px">
+                  <select  mz-select name="option" [(ngModel)]="option" (change)="doSomething1()" style="width:320px">
+                    <option *ngFor="let option of options1" [ngValue]="option">
+                        {{ option.FirstName }}
+                    </option>
+                </select>
+              </mz-select-container>
+                
+ 
+                </td>
+
+                <td>
+                    <mz-select-container style="width:200px">
+
+                        <select mz-select id="options-select"
+                        [label]="'Label'"
+                        [placeholder]="'Placeholder'" name="option1" [(ngModel)]="option1" (change)="doSomething()" style="width:320px">
+                        <optgroup label="Group 1">
+                                  <option *ngFor="let option1 of options" [ngValue]="option1">
+                                    {{ option1.FirstName }}
+                                  </option>
+                                </optgroup>
+                        </select>
+                    </mz-select-container>
+
+                </td>
+                <td>
+                    <mz-select-container style="width:200px">
+                        <select mz-select
+                          id="options-select"
+                          [label]="'Label'"
+                          [placeholder]="'Placeholder'" (change)="doSomething()" [(ngModel)]="employee"  style="width:320px"
+                        >
+                          <optgroup label="Group 1">
+                                <option *ngFor="let employee of employees | async" [ngValue]="employee">{{ employee.FirstName }}</option>
+                          </optgroup>
+                         
+                        </select>
+                      </mz-select-container>
+                </td>
+            </tr>
+            </table>
+        
+
+
+       
+
+
+
+        <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Employee ID</th>
+                    <th>Photo</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let employee of employees | async">
+                        <td style="width: 120px">{{ employee.EmployeeID }} </td>
+                        <td style="width: 150px"><img class="avatar" [src]='this.getImage(employee.Photo)' onError="this.src='./assets/images/images.jpg'"/></td>
+                        <td>{{ employee.FirstName }}</td>
+                        <td>{{ employee.LastName }}</td>
+                        <td><button mz-button class="green" (click)="deleteTodo(employee.EmployeeID)">Delete</button></td>
+                    </tr>
+                </tbody>
+         </table>
+
+
+
+
+    <input type="file" class="browse" ngModel (change)="getFiles($event)">
+    <img class="avatar1" [src]='filestring' onError="this.src='./assets/images/no-image-icon-md.png'"/>
+    <div>
+        <code>promise|async</code>: 
+        <button mz-button class="green" (click)="clicked()">{{ arrived ? 'Reset' : 'Resolve' }}</button>
+        <span>Wait for it... {{ greeting | async }}</span>
+      </div>
+</div>

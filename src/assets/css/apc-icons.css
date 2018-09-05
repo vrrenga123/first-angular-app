@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "apcfonts";
+  src:url("../apcfonts/apcfonts.eot");
+  src:url("../apcfonts/apcfonts.eot?#iefix") format("embedded-opentype"),
+    url("../apcfonts/apcfonts.woff") format("woff"),
+    url("../apcfonts/apcfonts.ttf") format("truetype"),
+    url("../apcfonts/apcfonts.svg#apcfonts") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "apcfonts" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="apc-icon-"]:before,
+[class*=" apc-icon-"]:before {
+  font-family: "apcfonts" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.apc-icon-dashboard:before {
+  content: "\62";
+}
+.apc-icon-dashboardgrid:before {
+  content: "\63";
+}
+.apc-icon-dynamicipr:before {
+  content: "\64";
+}
+.apc-icon-flowlines:before {
+  content: "\65";
+}
+.apc-icon-ghana:before {
+  content: "\66";
+}
+.apc-icon-gom:before {
+  content: "\67";
+}
+.apc-icon-luciusco2:before {
+  content: "\68";
+}
+.apc-icon-performanceanalysis:before {
+  content: "\69";
+}
+.apc-icon-performanceanalysisgasinjectors:before {
+  content: "\6a";
+}
+.apc-icon-performanceanalysiswaterinjectors:before {
+  content: "\6b";
+}
+.apc-icon-productionanalysis:before {
+  content: "\6c";
+}
+.apc-icon-productionanalysisfield:before {
+  content: "\6d";
+}
+.apc-icon-productionanalysisgasinjectors:before {
+  content: "\6e";
+}
+.apc-icon-productionanalysisreservoir:before {
+  content: "\6f";
+}
+.apc-icon-productionanalysiswaterinjectors:before {
+  content: "\70";
+}
+.apc-icon-productiondashboard:before {
+  content: "\71";
+}
+.apc-icon-rampup:before {
+  content: "\72";
+}
+.apc-icon-rampupmonitoring:before {
+  content: "\73";
+}
+.apc-icon-resimexport:before {
+  content: "\74";
+}
+.apc-icon-shutin:before {
+  content: "\75";
+}
+.apc-icon-targetoptimization:before {
+  content: "\76";
+}
+.apc-icon-well:before {
+  content: "\77";
+}
+.apc-icon-wellbore:before {
+  content: "\78";
+}
+.apc-icon-wellboreconfiguration:before {
+  content: "\79";
+}
+.apc-icon-wellboreconfigurationgasinjectors:before {
+  content: "\7a";
+}
+.apc-icon-wellboreconfigurationwaterinjectors:before {
+  content: "\41";
+}
+.apc-icon-wellrouting:before {
+  content: "\42";
+}
+.apc-icon-wellroutingoptimization:before {
+  content: "\43";
+}
+.apc-icon-choke:before {
+  content: "\61";
+}
+.apc-icon-anadarko-towerlogo-25:before {
+  content: "\44";
+}
+.apc-icon-anadark-oil-derrick-logo:before {
+  content: "\45";
+}
+.apc-icon-gasinjectorsdashboard:before {
+  content: "\46";
+}
+.apc-icon-waterinjectorsdashboard:before {
+  content: "\47";
+}
+.apc-icon-kongsbergdiagnostic:before {
+  content: "\48";
+}
+.apc-icon-businessforecast:before {
+  content: "\49";
+}
+.apc-icon-productionsummary:before {
+  content: "\4a";
+}
+.apc-icon-forecastvsactualproduction:before {
+  content: "\4b";
+}

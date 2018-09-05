@@ -1,0 +1,15 @@
+<div *ngIf="getAccess()">
+<h1> Hello World!!!!!!!!!!</h1>
+<button (click)='go()'>Go with Peoples</button>
+<div *ngFor="let todo of todos | async">
+    {{ todo }} 
+</div>
+</div>
+
+
+<div *ngIf="!getAccess()">
+    <h1> Access Denied!!!!!!!!!!</h1>
+
+</div>
+    
+    

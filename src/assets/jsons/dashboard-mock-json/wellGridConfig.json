@@ -1,0 +1,239 @@
+[
+  {
+    "headerName": "entityInstanceId",
+    "field": "entityInstanceId",
+    "hide": true,
+    "type": [
+      "editableColumn"
+    ]
+  },
+  {
+    "headerName": "WellType",
+    "field": "wellType",
+    "maxWidth": 120,
+    "minWidth": 120,
+    "type": "pinnedLeft"
+  },
+  {
+    "headerName": "Field Name (Route)",
+    "field": "fieldName",
+    "maxWidth": 120,
+    "minWidth": 120,
+    "type": "pinnedLeft"
+  },
+  {
+    "headerName": "BHP (psi)",
+    "field": "bottomHolePressureCommingled",
+    "maxWidth": 80,
+    "minWidth": 80
+  },
+  {
+    "headerName": "USCP (psi)",
+    "field": "upstreamChokePressure",
+    "maxWidth": 80,
+    "minWidth": 80
+  },
+  {
+    "headerName": "DSCP (psi)",
+    "field": "downstreamChokePressure",
+    "maxWidth": 80,
+    "minWidth": 80
+  },
+  {
+    "headerName": "MPFM Oil (BOPD)",
+    "field": "oilRateMPFMMeter",
+    "maxWidth": 80,
+    "minWidth": 80,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "MPFM Water (BWPD)",
+    "field": "waterRateMpfmMeter",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "MPFM WaterCut (%)",
+    "field": "waterCut",
+    "maxWidth": 110,
+    "minWidth": 110,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "MPFM Total Liquid (BPD)",
+    "field": "mpfmTotalLiquid",
+    "maxWidth": 100,
+    "minWidth": 100
+  },
+  {
+    "headerName": "MPFM Target Oil",
+    "field": "targetMpfmOil",
+    "filter": "number",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "editableColumn",
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "Target Min. Press. (psi)",
+    "field": "minimumBHP",
+    "filter": "number",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "editableColumn",
+      "number"
+    ]
+  },
+  {
+    "headerName": "Target Pressure Selector",
+    "field": "deltaPActual",
+    "filter": "number",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "editableColumn"
+    ],
+    "cellEditor": "select",
+    "cellEditorParams": {
+      "values": [
+        "BHP",
+        "WHP"
+      ]
+    }
+  },
+  {
+    "headerName": "DD Limit (psi)",
+    "field": "ddLimit",
+    "filter": "number",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "editableColumn",
+      "number"
+    ]
+  },
+  {
+    "headerName": "PDB Target Oil (BOPD)",
+    "field": "targetOil",
+    "filter": "number",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "editableColumn",
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "DD(1 hr) (psi)",
+    "field": "dd60",
+    "maxWidth": 100,
+    "minWidth": 100
+  },
+  {
+    "headerName": "PI(1 hr) (BFPD/psi)",
+    "field": "pi60",
+    "maxWidth": 100,
+    "minWidth": 100
+  },
+  {
+    "headerName": "PDB Oil (BOPD)",
+    "field": "oil",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB Water (BWPD)",
+    "field": "water",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB Gas (MCFD)",
+    "field": "gas",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB GOR (SCF/STB)",
+    "field": "pdbGor",
+    "maxWidth": 100,
+    "minWidth": 100
+  },
+  {
+    "headerName": "PDB WC (%)",
+    "field": "pdbWaterCut",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "Oil_Diff (BOPD)",
+    "field": "oilDiff",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB CumOil (MBO)",
+    "field": "cumOil",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB CumGas (MMSCF)",
+    "field": "cumGas",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  },
+  {
+    "headerName": "PDB CumWater (MB)",
+    "field": "cumWater",
+    "maxWidth": 100,
+    "minWidth": 100,
+    "type": [
+      "number",
+      "total"
+    ]
+  }
+]

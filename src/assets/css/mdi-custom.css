@@ -1,0 +1,71 @@
+.mdi,.mdi:before,
+.mdi-set {
+    position: relative;
+    top: 1px;
+    font-family: 'Material Design Icons';
+    font-weight: 400;
+    font-style: normal;
+    font-size: inherit;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    word-wrap: normal;
+    text-rendering: auto;
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.mdi.mdi-18px {
+    font-size: 18px
+}
+.mdi.mdi-20px {
+    font-size: 20px
+}
+.mdi.mdi-21px {
+    font-size: 21px
+}
+.mdi.mdi-22px {
+    font-size: 22px
+}
+.mdi.mdi-24px {
+    font-size: 24px
+}
+.mdi.mdi-25px {
+    font-size: 25px
+}
+.mdi.mdi-26px {
+    font-size: 26px
+}
+.mdi.mdi-27px {
+    font-size: 27px
+}
+.mdi.mdi-28px {
+    font-size: 28px
+}
+.mdi.mdi-29px {
+    font-size: 29px
+}
+.mdi.mdi-30px {
+    font-size: 30px
+}
+.mdi.mdi-31px {
+    font-size: 31px
+}
+.mdi.mdi-32px {
+    font-size: 32px
+}
+.mdi.mdi-33px {
+    font-size: 33px
+}
+.mdi.mdi-34px {
+    font-size: 34px
+}
+.mdi.mdi-36px {
+    font-size: 36px
+}
+.mdi.mdi-48px {
+    font-size: 48px
+}

@@ -1,0 +1,189 @@
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0px;
+    left: 0;
+    z-index: 1035;
+    padding: 0px;
+    width: 68px;
+    background: #939597;
+    -webkit-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+.sidebar:hover{
+    width:315px;
+}
+.sidebar ul{
+    height:100%;
+}
+.sidebar ul,.sidebar li,.sidebar li ul,.sidebar li ul li{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li {
+     white-space: nowrap;
+    margin:0px;
+    border-bottom: none
+}
+.sidebar li ul li{
+    border:none;
+}
+.sidebar li a em{
+    padding-right: 0px;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #ffffff;
+    border-radius: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sidebar li a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 16px;
+}
+.sidebar li a:hover{
+    background-color:#B3B4B5;
+    color: #fff; 
+}
+.sidebar li a.active-item{
+    background-color:#e3e3e3; 
+}
+.sidebar li a.active-item em{
+    background-color: #002b52;
+}
+.sidebar li.clsBusinessUnits i,.sidebar li.clsWorkflows i{
+     font-size: 24px;
+}
+.sidebar li a i {
+    color: #0054a0;
+    padding: 4px 6px;
+    display: inline-block;
+}
+.sidebar li a:hover i{
+     color: #0054a0;
+}
+.sidebar li a.active-item i{
+     color: #fff;
+}
+.sidebar li a.active-item:hover span,.sidebar li a.active-item span{
+    color:#002B52;
+}
+.sidebar li a.clsHomeIcon i,.sidebar li a.clsSupportIcon i{
+    font-size: 20px;
+    top: 0px;
+    left:2px;
+}
+.sidebar li a.clsPinIcon{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    opacity:1;
+    padding: 0;
+    width: fit-content;  
+     transition: width .5s ease-in-out; 
+}
+.sidebar li a.clsPinIconIn,.sidebar li a.clsPinIconOff{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity:0;
+    padding: 0;
+    width: fit-content;  
+     transition: width .5s ease-in-out; 
+}
+
+_:-ms-fullscreen, .sidebar li a.clsPinIconIn,.sidebar li a.clsPinIconOff{ width:20px; float:right; } /* IE11 */  
+
+.sidebar:hover .clsPinIconIn,.sidebar .clsPinIconOff,.sidebar .clsPinIconIn i.mdi-pin-off{
+    opacity: 1!important;
+}
+.sidebar li a.clsPinIcon:hover{
+    background-color: transparent;
+}
+.sidebar li a.clsPinIcon i{
+    width: 20px;
+    /* height: 20px; */
+    padding: 0!important;
+    background-color: #4A4A4A;
+    color: #E3E3E3;
+    line-height: 48px;
+    text-align: center;
+    top: 0;
+}
+.sidebar li a.clsPinIcon i:before{
+    top: 2px;
+}
+.sidebar li a:hover span{
+    color:#fff;
+    transition: 0.3s;
+    -webkit-transition:  0.3s; /* Safari 3.1 to 6.0 */
+}
+.sidebar li span {
+    font-size: 0.9375rem;
+    line-height: 24px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #fff;
+    padding-left: 7px;
+    width: calc(100% - 40px);
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+/* Sidebar navigation */
+.sidebar {
+    padding-left: 0;
+    padding-right: 0;
+}
+.sidebar .nav-item {
+    width: 100%;
+}
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+.sidebar .nav-link {
+    border-radius: 0;
+}
+.sidebar.slideInLeft {
+  width:0px;
+  transition: width .03s ease-in-out!important; 
+}
+.slideInRight {  
+  width:68px;
+}
+.clsSupportSection {
+    position: absolute;
+    bottom: 0;
+    height: 48px;
+    width: 100%;
+}
+.clsHomeMenu {
+    position: absolute;
+    top: 0;
+    height: 48px;
+    width: 100%;
+}
+.sidebar.slideInLeft .clsSideMenuListItems,
+.sidebar.slideInLeft .clsSideMenuListItems .clsWokflowLists,
+.sidebar.slideInLeft li a.active-item em {
+    visibility: hidden;
+    transition: width .03s ease-in-out!important; 
+}
+.sidebar li.clsWokflowLists{
+    width: 100%;
+    height: calc( 100% - 96px );
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}

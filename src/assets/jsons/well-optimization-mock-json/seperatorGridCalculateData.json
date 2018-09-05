@@ -1,0 +1,11 @@
+[
+    {
+        "isActive": true,
+        "separator": "",
+        "pressure": 534345,
+        "maxLigRate": 657684,
+        "calcOilRate": 4544,
+        "calcGasRate": 144,
+        "calcWaterRate": 6878
+    }
+]
