@@ -2,55 +2,6 @@
 import * as moment from 'moment';
 import { PACKAGE_ROOT_URL } from "@angular/core/src/application_tokens";
 //import { AppProperties } from "@apc-ng/core/lib/config/app-properties.model";
-import { Moment } from 'moment';
-
-export interface ICustomer {
-    userId : number,
-	id: number;
-	title: string;
-	body: string;
-}
-
-export interface IPeople{
-         UserName:string;
-         FirstName:string;
-         LastName:string;
-         MiddleName:string;
-         Gender:string;
-         Age:string;
-         Emails:Array<string>;
-         FavoriteFeature:string;
-         Features:Array<string>;
-         HomeAddress:string;
-}
-
-export interface IProductDetails{
-    ProductID : number;
-    Details : string;
-
-}
-
-export interface IEmployee{
-    EmployeeID : number;
-    LastName : string;
-    FirstName : string;
-    Title : string;
-    TitleOfCourtesy : string;
-    BirthDate : Moment;
-    HireDate : Moment;
-    Address : string;
-    City : string;
-    Region : string;
-    PostalCode : string;
-    Country : string;
-    HomePhone : string;
-    Extension : string;
-    Photo : any;
-    Notes : string;
-    ReportsTo : number;
-    PhotoPath : string;
-}
-
 
 export enum NavigationParam {
     BusinessUnit = 'business-unit',
@@ -330,44 +281,6 @@ export class Facility {
     set fields(value: Field[]) {
         this._fields = value;
     }
-}
-
-
-export class NavigationField {
-
-    private _name: string;
-    private _displayName: string;
-    private _workflows: Workflow[];
-    get name(): string {
-        return this._name;
-    }
-    set name(value: string) {
-        this._name = value;
-    }
-
-    get displayName(): string {
-        return this._displayName;
-    }
-    set displayName(value: string) {
-        this._displayName = value;
-    }
-
-    get workflows(): Workflow[] {
-        return this._workflows;
-    }
-    set workflows(value: Workflow[]) {
-        this._workflows = value;
-    }
-
-    constructor(field: NavigationField) {
-        
-        if (field) {
-            Object.keys(field).forEach(key => {
-                this[key] = field[key];
-            })
-        }
-    }
-
 }
 
 export class Field {

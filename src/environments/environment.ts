@@ -3,10 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-	keycloakRootUrl: 'http://localhost:8080/auth',
-	production: false
+  production: false
 };
-
 
 /*
  * In development mode, to ignore zone related error stack frames such as

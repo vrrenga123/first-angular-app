@@ -1,45 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule,APP_INITIALIZER } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { LeftNavigationComponent } from './core/left-navigation/left-navigation.component'
 import { AppComponent } from './app.component';
 import { RouterModule, Routes, Route } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
 import { ApplicationContextService } from './core/app.context.service';
+import { HomeComponent } from './home/home.component'
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FieldResolver } from './core/resolver/fieldsResolver'
-import { AppRoutingModule } from './app-routing.module';
-import { EchoService } from './core/echo.services';
-import { KeycloakService} from "./keycloak/keycloak.service";
-import { HttpModule, RequestOptions, XHRBackend} from "@angular/http";
-import { KeycloakHttp, keycloakHttpFactory} from "./keycloak/keycloak.http";
-import { ApcAvatarComponent } from './avatar/avatar.component';
-import { LoginService } from './core/login.service';
-import { ServiceContractService } from './core/service-contract.service';
-import { CanActivateApp } from './app.authguard';
+
 @NgModule({
   declarations: [
     AppComponent,
-    LeftNavigationComponent,ApcAvatarComponent
-    
-    
+    LeftNavigationComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    SharedModule,BrowserAnimationsModule,HttpModule
+    RouterModule.forRoot([
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: 'home',  component: HomeComponent }
+    ]),
+    BrowserModule,SharedModule
   ],
   exports: [
-    
+    LeftNavigationComponent
   ],
-  providers: [
-    {
-			provide: KeycloakHttp,
-			useFactory: keycloakHttpFactory,
-			deps: [XHRBackend, RequestOptions, KeycloakService]
-		},
-		KeycloakService,
-    ApplicationContextService, FieldResolver,EchoService,LoginService,ServiceContractService,CanActivateApp
-  ],
+  providers: [ApplicationContextService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

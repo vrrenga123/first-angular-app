@@ -10,9 +10,8 @@ import { ApplicationContextService } from "../app.context.service";
 import { BusinessUnit, Workflow, NavigationParam, WorkflowName } from "../app.model";
 import { Context } from "../app.context";
 import { ActivatedRoute, Router, NavigationEnd } from "@angular/router";
-import { FieldResolver } from '../resolver/fieldsResolver';
 //import { debounce } from "rxjs/operators/debounce";
-import { SideBarService } from './left-navigation.service';
+
 @Component({
     selector: 'router-links',
     templateUrl: './left-navigation.component.html',
@@ -28,42 +27,15 @@ export class LeftNavigationComponent implements OnChanges, OnDestroy {
     isSidebarOpened: Boolean = true;
     context: Context;
     
-    constructor(private router: Router,private httpClient: HttpClient,private appContextService: ApplicationContextService,private fieldResolver: FieldResolver,private sideBarService: SideBarService) {
-        //debugger;
+    constructor(private router: Router,private httpClient: HttpClient,private appContextService: ApplicationContextService,) {
+        debugger;
         this.context = this.appContextService.getContext();
-        this.context.navigationField = this.fieldResolver.navigationField;
-        this.imageUrlsSub = this.getIconPaths()
-        .subscribe(value => {
-            this.imageUrls = value;
-        });
-        
+
     }
 
     showWorkflows() {
-
-        return this.context.allNavigationWorkflows.length > 0;
+        return this.context.allWorkflows.length > 0;
     }    
-
-    getIconPaths(): Observable<any> {
-        const iconPaths: any = {}
-        return this.httpClient.get('./assets/jsons/icons.json').pipe(
-            map(res => {
-                //debugger;
-                const responseIcons = res['fonts'];
-                const keys = Object.keys(responseIcons).forEach(key => {
-                    if (key === this.context.businessUnitName){
-                        iconPaths[WorkflowName.LandingPage] = responseIcons[this.context.businessUnitName];
-                    } else if (WorkflowName[key]) {
-                        iconPaths[WorkflowName[key]] = responseIcons[key];
-                    } else {
-                        iconPaths[key] = responseIcons[key];
-                    }
-
-                })
-                return iconPaths;
-            }));
-            
-    }
 
    
 
@@ -89,12 +61,8 @@ export class LeftNavigationComponent implements OnChanges, OnDestroy {
     }    
 
     workflowClick(workflow: Workflow) {
-        var url1: string = workflow.name;
-        url1 = url1.toLowerCase();
         //this.navigationService.redirectURL(this.context.businessUnitName, this.context.facilityName, this.context.fieldName, workflow.name, null);
         this.context.workflow = workflow;
-        this.router.navigate([url1]);
-        //alert(workflow.name);
     }
 
     isImagesAvailable(): boolean {
@@ -103,7 +71,6 @@ export class LeftNavigationComponent implements OnChanges, OnDestroy {
 
     homeClicked() {
         //this.navigationService.navigateHome();
-        this.router.navigate(["home"]);
     }
 
     pinClicked() {

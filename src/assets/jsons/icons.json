@@ -36,15 +36,6 @@
         "KongsbergDiagnosticChart": "icon apc-icon-kongsbergdiagnostic",
         "business-forecast": "icon apc-icon-businessforecast",
         "production-summary": "icon apc-icon-productionsummary",
-        "forecast-vs-actual-production": "icon apc-icon-forecastvsactualproduction",
-        "Customers" : "icon apc-icon-productionsummary",
-        "Products" : "icon apc-icon-forecastvsactualproduction",
-        "Peoples" : "icon apc-icon-forecastvsactualproduction",
-        "Emitter" : "icon apc-icon-kongsbergdiagnostic",
-        "Categories" : "icon apc-icon-productionanalysisreservoir",
-        "Blogs": "icon apc-icon-gasinjectorsdashboard",
-        "Todos" : "icon apc-icon-wellrouting",
-        "Obs" : "icon apc-icon-wellrouting",
-        "Employees" : "icon apc-icon-luciusco2"
+        "forecast-vs-actual-production": "icon apc-icon-forecastvsactualproduction"
     }
 }

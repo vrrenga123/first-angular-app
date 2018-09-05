@@ -42,32 +42,4 @@ export class ApplicationContextService {
             this.pageContentHeight.next(height);
         //}
     }
-
-    urlBase64Decode(str : string) : string {
-        var output = str.replace('-', '+').replace('_', '/');
-        switch (output.length % 4) {
-            case 0:
-                break;
-            case 2:
-                output += '==';
-                break;
-            case 3:
-                output += '=';
-                break;
-            default:
-                throw 'Illegal base64url string!';
-        }
-        return atob(output);
-    }
-
-
-    getUserFromToken(str : string) : any {
-        var token = str;
-        var user = {};
-        if (typeof token !== 'undefined') {
-            var encoded = token.split('.')[1];
-            user = JSON.parse(this.urlBase64Decode(encoded));
-        }
-        return user;
-    }
 }

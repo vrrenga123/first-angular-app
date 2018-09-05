@@ -17,12 +17,12 @@
             
             <li *ngIf="showWorkflows()" class="clsWokflowLists nav-scroll">
                 <ul>                   
-                    <li class="clsWorkflows" *ngFor="let workflow of context.allNavigationWorkflows">
-                        <a [class.active-item]="this.isActive(workflow)" (click)="workflowClick(workflow)" [title]="workflow.name">
+                    <li class="clsWorkflows" *ngFor="let workflow of context.allWorkflows">
+                        <a [class.active-item]="this.isActive(workflow)" (click)="workflowClick(workflow)" [title]="workflow.description">
                             <em>
                                 <i [class]="imageUrls[workflow.name]"> </i>
                             </em>
-                            <span>{{workflow.name}}</span>
+                            <span>{{workflow.description}}</span>
                         </a>
                     </li>
                 </ul>

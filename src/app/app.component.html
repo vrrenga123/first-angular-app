@@ -1,14 +1,15 @@
 <div id="wrapper" class="clsWrapper" [ngClass]="this.isTablet()?'clsMobileWrapper':''" #pageContent>
+Hello World
     <header #pageHeader>
         <nav class="navbar fixed-top">
 
             <div class="clsNavRightSection" id="navbarText">
 
                 <h1 class="navbar-brand navbar-nav mr-auto ipso-logo slideInLeft">
-                    <a *ngIf="context.isShowSidebar && !this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
+                    <a *ngIf="isShowSidebar && !this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
                         <i class="mdi mdi-menu mdi-24px"></i>
                     </a>
-                    <a *ngIf="context.isShowSidebar && this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
+                    <a *ngIf="isShowSidebar && this.isTablet()" class="clsMenu mr-auto" (click)="toggleMenu()">
                         <!-- <i class="mdi mdi-menu mdi-24px"></i> -->
                         <div class="navbar-wrap">
                             <div class="navbar-button" [ngClass]="this.isSidebarToggled?'open':''">
@@ -26,27 +27,21 @@
                         <span class="clslogo-text">Angular 6 Example</span>
                     </a>
                 </h1>
-                <apc-avatar class="slideInRight" *ngIf="this.apcloading"></apc-avatar>
+
             </div>
         </nav>
     </header>
 
-    <div id="page-content-wrapper" class="clearfix" (click)="onBodyClick()" [class.clsHomepageWrapper]="!context.isShowSidebar"
-            (window:resize)="onResize($event)">
+    <div id="page-content-wrapper" class="clearfix" (click)="onBodyClick()" [class.clsHomepageWrapper]="!isShowSidebar"
+    (window:resize)="onResize($event)">
 
 
     <div *ngIf="!loading">
-        <router-links *ngIf="context.isShowSidebar" [isSideBarClicked]="this.isSidebarToggled"></router-links>
-        <!-- <div class="container-fluid" [class.isPinSwitchOff]="(this.isSidebarToggled ? false : this.context.pinSwitched)" [class.sidebarBeforeToggled]="this.isSidebarToggled"
-                    [class.sidebarAfterToggled]="!this.isSidebarToggled" [class.clsHomepageContainer]="!context.isShowSidebar"> -->
-                    <div [ngClass]="{
-                        'container-fluid': this.containerFluid,
-                        'isPinSwitchOff' : (this.isSidebarToggled ? this.pinOff : this.context.pinSwitched),
-                        'sidebarAfterToggled' : !this.isSidebarToggled,
-                        'sidebarBeforeToggled' : this.isSidebarToggled
-                      }">
-                    <div class="row" [ngClass]="context.isShowSidebar ? ' mt-2' : 'mt-0'">
-                        <div class="col-sm-12 col-md-12" id="main">
+        <router-links *ngIf="context.isShowSidebar" [isSideBarClicked]="this.isSidebarToggled"></router-links>  
+        <div class="container-fluid" [class.isPinSwitchOff]="(this.isSidebarToggled ? false : this.pinSwitched)" [class.sidebarBeforeToggled]="this.isSidebarToggled"
+            [class.sidebarAfterToggled]="!this.isSidebarToggled" [class.clsHomepageContainer]="!isShowSidebar">
+            <div class="row" [ngClass]="isShowSidebar ? ' mt-2' : 'mt-0'">
+                <div class="col-sm-12 col-md-12" id="main">
                     <!-- <div class="row">
                   <basic-auth></basic-auth>
               </div> -->
@@ -63,6 +58,6 @@
     </div>
     <footer id="footer" class="navbar {{(this.isSidebarToggled)?'':context.isShowSidebar?'clsFooter':''}}" [class.sidebarBeforeToggled]="this.isSidebarToggled || loading"
     [class.isPinSwitchOff]="(this.isSidebarToggled ? false : this.context.pinSwitched)" #pageFooter>
-    <span>&copy; Copyright Anadarko 2018. All rights reserved. Powered by <img alt="AAET" height="22" width="55" src="./assets/images/AAET.png">&nbsp;</span>
+    <span>&copy; Copyright Anadarko 2018. All rights reserved. Powered by <img alt="AAET" height="22" width="55" src="src/assets/images/AAET.png">&nbsp;{{appBuildVersion}} &nbsp;{{appBuilTimestamp}} </span>
 </footer>
   </div>

@@ -7,7 +7,6 @@ body {
     line-height: 1.5;
     color: #00162A;
     background-color: #f8f8f8;
-    overflow: hidden;
 }
 
 body p {
@@ -20,7 +19,7 @@ body p {
 h1 {
     margin-bottom: 20px;
     padding-bottom: 9px;
-    
+    border-bottom: 1px solid #eee;
 }
 
 .h1,
@@ -258,18 +257,6 @@ apc-avatar {
     height: 40px;
     overflow: hidden;
     width: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-.avatar1 {
-    border-radius: 50%;
-    height: 240px;
-    overflow: hidden;
-    width: 240px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1574,13 +1561,7 @@ high-charts .highcharts-legend .highcharts-legend-item-hidden text tspan{
 .modal-content .col-form-label {
     font-size: 0.8125rem;
 }
-.modal {
-    background-color: transparent;
-    box-shadow: 0 8px 10px 1px transparent, 0 3px 14px 2px transparent, 0 5px 5px -3px transparent;
-}
-.modal .modal-content {
-    padding: 0;
-}
+
 .clsCustomExcelExportModal .modal-dialog {
     margin: 30px auto;
     max-width: 610px;

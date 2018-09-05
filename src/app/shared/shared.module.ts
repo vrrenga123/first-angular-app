@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from "@angular/common/http";
 import { CommonModule } from '@angular/common';
 import { FormsModule } from "@angular/forms";
-import { EmitterComponent } from "../emitter/emitter.component";
-import { MzSpinnerModule } from 'ngx-materialize';
+
 import {
     LoadingComponent,
     ConfirmationModalComponent
@@ -13,12 +12,11 @@ import {
     imports: [
         HttpClientModule,
         FormsModule,
-        CommonModule,MzSpinnerModule
+        CommonModule
     ],
     exports: [
         LoadingComponent,
         HttpClientModule, 
-        EmitterComponent,
         FormsModule, 
         CommonModule
     ],
@@ -27,8 +25,7 @@ import {
     ],
     declarations: [
         LoadingComponent,
-        ConfirmationModalComponent,
-        EmitterComponent
+        ConfirmationModalComponent
     ]
 })
 export class SharedModule { }

@@ -1,7 +1,6 @@
-import { EntityType, Completion, Field, Workflow, Facility, BusinessUnit, Entity, WorkflowComponent, NavigationField } from "./app.model";
+import { EntityType, Completion, Field, Workflow, Facility, BusinessUnit, Entity, WorkflowComponent } from "./app.model";
 //import { TimeFrameRange, SamplingMethod } from "../time-frame/time-frame.model";
 import * as moment from 'moment';
-import { Observable } from 'rxjs';
 //import { CoreToasterService } from "./core.toaster.service";
 
 export class Context {
@@ -21,33 +20,13 @@ export class Context {
     private _overrideSampling: boolean;
     private _isShowCompletion: boolean;
     private _isChkMPFMWells: boolean;
-    private _isShowSidebar: boolean = false;
+    private _isShowSidebar: boolean = true;
     private _isMobile: boolean = false;
     private _zoomOutStartDate: Date = null;
     private _zoomOutEndDate: Date = null;
     private _pinSwitched: boolean = false;    
-    private _navigationField : NavigationField = null;
-    private _isLoggedIn : boolean = false;
-    private _userToken : any = false;
-    //private _isShowSidebarO : Observable<boolean> = true;
-    //private _navigationField: Observable<Array<NavigationField>>;
+
     constructor() { }
-
-    get isLoggedIn () : boolean {
-        return this._isLoggedIn;
-    }
-
-    set isLoggedIn (value : boolean) {
-        this._isLoggedIn = value;
-    }
-
-    get userToken () : any {
-        return this._userToken;
-    }
-
-    set userToken (value : any){
-        this._userToken = value;
-    }
 
     get allBusinessUnits(): BusinessUnit[] {
         if (this._allBusinessUnits) {
@@ -142,27 +121,6 @@ export class Context {
         //     this._startDate = this.firstOilDate; //new first oil date after change of field
         // }
     }
-
-    get navigationField() {
-        return this._navigationField;
-    }
-
-    set navigationField(navigationField: NavigationField) {
-        // if (!this._navigationField || !navigationField || this._navigationField.name !== navigationField.name) {
-        //     this.entity = null;
-        // }
-        this._navigationField = new NavigationField(navigationField);
-
-    }
-
-    get allNavigationWorkflows(): Workflow[] {
-
-        if (this._navigationField && this._navigationField.workflows) {
-            return this._navigationField.workflows;
-        } 
-        return [];
-    }
-    
 
     get fieldName(): string {
         if (this._field) {
@@ -460,16 +418,6 @@ export class Context {
     set isShowSidebar(value: boolean) {
         this._isShowSidebar = value;
     }
-
-    // get isShowSidebarO(): Observable<boolean> {
-    //     return this._isShowSidebarO;
-    // }
-
-    // set isShowSidebarO(value: Observable<boolean>) {
-    //     this._isShowSidebarO = value;
-    // }
-
-
     get isMobile(): boolean {
         return this._isMobile;
     }

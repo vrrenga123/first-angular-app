@@ -1,10 +1,7 @@
-import { Component, OnInit, OnDestroy, AfterViewInit, Renderer, ViewChild, ElementRef  } from '@angular/core';
+import { Component, OnInit, OnDestroy, AfterViewInit, Renderer, ViewChild, ElementRef } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart, ActivatedRoute, NavigationCancel, NavigationError } from "@angular/router";
 import { ApplicationContextService } from './core/app.context.service';
 import { Context } from "./core/app.context";
-import { LoginService } from './core/login.service';
-import { SideBarService } from './core/left-navigation/left-navigation.service';
-import { Subscription } from "rxjs/Subscription";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,40 +12,22 @@ export class AppComponent implements OnInit {
   @ViewChild('pageContent') pageContent: ElementRef;
   @ViewChild('pageHeader') pageHeader: ElementRef;
   @ViewChild('pageFooter') pageFooter: ElementRef;
-  public loading = true;
-  public eventSub: Subscription;
-  public apcloading = false;
+
+  private applicationContextService: ApplicationContextService
   // constructor(private renderer: Renderer, private applicationContextService: ApplicationContextService,){
   //   this.context = this.applicationContextService.getContext();
   // }
-  constructor(private router: Router,private renderer: Renderer, private applicationContextService: ApplicationContextService ,private sideBarService: SideBarService){
-    this.context = this.applicationContextService.getContext();
-    //this.context.isShowSidebar = false;
-    this.loading = false;
-  //   this.eventSub = this.router.events.subscribe(x => {
-  //     if (x instanceof NavigationStart) {
-  //         this.loading = true;
-  //     } else if (x instanceof NavigationEnd
-  //         || event instanceof NavigationCancel
-  //         || event instanceof NavigationError) {
-  //         this.context = this.applicationContextService.getContext();
-  //         this.loading = false;
-  //         this.setContentHeight();
-  //     }
+  constructor(private router: Router,private renderer: Renderer){
 
-  // });
-    this.sideBarService.isOpen = true;
-    this.sideBarService.change.subscribe(isOpen => {
-      this.context.isShowSidebar = true;
-      this.apcloading = true;
-    });
+    this.applicationContextService = new ApplicationContextService();
+    this.context = this.applicationContextService.getContext();
   }
   onResize(event: any) {
     
     this.setContentHeight();
 }
 ngAfterViewInit() {
-
+  debugger;
   this.setContentHeight();
 }
 ngOnInit() {
@@ -56,8 +35,6 @@ ngOnInit() {
   var a : string ="hello";
   var b : string = "how are you?"
   var c : string = a+ b;
-  if (this.context.isLoggedIn == true)
-    this.router.navigate(["home"]);
   //alert(c);
  // alert(this.context.isShowSidebar);
 }
@@ -65,8 +42,6 @@ ngOnInit() {
   title = 'A3';
   private _isShowSidebar: boolean = true;
   public isSidebarToggled: boolean = false;
-  public containerFluid: boolean = true;
-  public pinOff: boolean = false;
   public pinSwitched: boolean = false;
   public showBreadcrumb: boolean = false;
   
@@ -93,6 +68,7 @@ onBodyClick() {
 }
 
 public setContentHeight() {
+
   const pageContentHeight = this.pageContent.nativeElement.offsetHeight;
   const pageHeaderHeight = this.pageHeader ? this.pageHeader.nativeElement.offsetHeight : 0;
   const pageFooterHeight = this.pageFooter ? this.pageFooter.nativeElement.offsetHeight : 0;
@@ -112,7 +88,7 @@ public setContentHeight() {
       this.renderer.setElementStyle(pageContentWrapper, 'height', 'calc(100vh - ' + pageHeaderHeight + 'px - ' + pageFooterHeight + 'px)'); // Used to assign the page container height.
       this.renderer.setElementStyle(pageContentWrapper, 'margin-top', '0px');
   }
-  this.applicationContextService.setPageContentHeight(pageHeight);
+  //this.applicationContextService.setPageContentHeight(pageHeight);
 }
 
 }
