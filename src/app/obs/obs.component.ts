@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-
+import { ServiceContractService } from '../core/service-contract.service'
 
 
 @Component({
@@ -14,6 +14,11 @@ export class ObsComponent implements OnInit {
 
     initialTime = Date.now();
     messages = [];
+
+    constructor (private service : ServiceContractService){
+
+    }
+
     log = (m) => {
       const dateDifference = Date.now() - this.initialTime;
       this.messages.push(`${dateDifference}ms: ${m}`);
@@ -51,6 +56,14 @@ export class ObsComponent implements OnInit {
       this.log(await this.doAsyncObservableThing('Await: Second').toPromise());
     }
   
+
+      async promise(){
+        alert('promise');
+        const result1 = <number>await this.service.getAsync.resolveAfter2Seconds(20);
+        const result2 = <number>await this.service.getAsync.resolveAfter2Seconds(30);
+        alert(result1 + result2);
+
+      }
 
   
 }
