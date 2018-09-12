@@ -74,6 +74,18 @@ const routes: Routes = [
     {
         path: 'employees',
         loadChildren: './employees/employees.module#EmployeesModule', canActivate: [CanActivateApp]
+    },
+    {
+        path: 'todo',
+        loadChildren: './todo/todo.module#TodoModule', canActivate: [CanActivateApp]
+    },
+    {
+        path: 'directive',
+        loadChildren: './directivee/directive.module#DirectiveModule', canActivate: [CanActivateApp]
+    },
+    {
+        path: 'pipes',
+        loadChildren: './pipes/pipes.module#PipesModule', canActivate: [CanActivateApp]
     }
 ];
 

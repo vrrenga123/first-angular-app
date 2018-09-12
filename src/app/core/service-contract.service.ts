@@ -28,6 +28,11 @@ export class ServiceContractService {
     getUserAuth :{
         getUserAuthenticate : (username, password) => Promise<any>;
     }
+
+    getAsync :{
+        resolveAfter2Seconds : (x) => Promise<any>;
+    }
+
     constructor(private httpClient : HttpClient, private context : ApplicationContextService){
         this.businessForecast = {
         
@@ -121,8 +126,6 @@ export class ServiceContractService {
                
             }
         }
-
-
         this.getUserAuth={
             getUserAuthenticate: (username, password) : Promise<any> =>{
                 const httpOptions = {
@@ -157,6 +160,15 @@ export class ServiceContractService {
 
         }
 
+        this.getAsync ={
+            resolveAfter2Seconds : (x) : Promise<any> => {
+                return new Promise(resolve => {
+                  setTimeout(() => {
+                    resolve(x);
+                  }, 2000);
+                });
+              }
+        }
     }
 
    

@@ -1,0 +1,15 @@
+<h2>Heroes from JSON File</h2>
+ 
+<div *ngFor="let hero of ('assets/jsons/heroes.json' | fetch) ">
+  {{hero.name}}
+</div>
+
+<p>Heroes as JSON:
+  {{'assets/jsons/heroes.json' | fetch | json}}
+</p>
+
+<h2>Peoples</h2>
+
+<div *ngFor="let hero of ('https://services.odata.org/V4/Northwind/Northwind.svc/Employees?$format=json' | fetch : true) ">
+  {{hero.FirstName}}
+</div>

@@ -100,6 +100,6 @@
     <div>
         <code>promise|async</code>: 
         <button mz-button class="green" (click)="clicked()">{{ arrived ? 'Reset' : 'Resolve' }}</button>
-        <span>Wait for it... {{ greeting | async }}</span>
+        <span>Wait for it... {{ greeting | async | json }}</span>
       </div>
 </div>

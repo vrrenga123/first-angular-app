@@ -128,7 +128,7 @@ clicked() {
   if (this.arrived) {
     this.reset();
   } else {
-    this.resolve ('hi there!');
+    this.resolve ({"empid" : 1, "empname" : "renga" });
     this.arrived = true;
   }
 }

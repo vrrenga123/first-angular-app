@@ -4,3 +4,7 @@
       <li *ngFor="let message of messages">{{message}}</li>
     </ul>
   </div>
+
+  <button id="star-button" mz-button [float]="true" [large]="true" (click)="promise()">
+    <i mz-icon-mdi [icon]="'star'"></i> 
+  </button>
